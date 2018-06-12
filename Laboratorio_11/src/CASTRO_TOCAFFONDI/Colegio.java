@@ -3,6 +3,7 @@ import java.util.ArrayList;
 //Autor: CASTRO TOCAFFONDI
 public class Colegio {
     private String RazonSocial;
+    public int as;
     private ArrayList<Alumno> lista;
     
     public Colegio(String RazonSocial){
