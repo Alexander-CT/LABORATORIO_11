@@ -2,7 +2,7 @@ package CASTRO_TOCAFFONDI;
 import java.util.ArrayList;
 //Autor: CASTRO TOCAFFONDI
 public class Colegio {
-    private String RazonSocial
+    private String RazonSocial;
     private ArrayList<Alumno> lista;
     
     public Colegio(String RazonSocial){

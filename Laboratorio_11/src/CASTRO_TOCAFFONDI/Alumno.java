@@ -1,7 +1,7 @@
 package CASTRO_TOCAFFONDI;
 //Autor: CASTRO TOCAFFONDI
 public class Alumno {
-    private String Nombre
+    private String Nombre;
     private String Nota;
     
     public Alumno(String Nombre, String Nota)
