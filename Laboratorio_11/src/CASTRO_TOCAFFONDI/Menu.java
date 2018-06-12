@@ -1,6 +1,6 @@
 package CASTRO_TOCAFFONDI;
 
-import javax.swing.JOptionPane;
+import javax.swing.JOptionPane
 //Autor: CASTRO TOCAFFONDI
 public class Menu {
     public Menu(){
