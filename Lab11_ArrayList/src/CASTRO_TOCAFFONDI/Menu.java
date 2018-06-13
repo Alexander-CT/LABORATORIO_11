@@ -4,7 +4,7 @@ import javax.swing.JOptionPane;
 //Autor: CASTRO TOCAFFONDI
 public class Menu {
     public Menu(){
-        Colegio c=new Colegio("Migues Grau");
+        Colegio c=new Colegio("Miguel Grau");
         String name;
         int opcion=0;
         String mensaje="1. Agregar alumno\n";
