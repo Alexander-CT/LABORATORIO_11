@@ -2,9 +2,9 @@ package CASTRO_TOCAFFONDI;
 //Autor: CASTRO TOCAFFONDI
 public class Alumno {
     private String Nombre;
-    private String Nota;
+    private int Nota;
     
-    public Alumno(String Nombre, String Nota)
+    public Alumno(String Nombre, int Nota)
     {
         setNombre(Nombre);
         setNota(Nota);
@@ -17,11 +17,11 @@ public class Alumno {
     {
         return Nombre;
     }
-    public void setNota(String Nota)
+    public void setNota(int Nota)
     {
         this.Nota=Nota;
     }
-    public String getNota()
+    public int getNota()
     {
         return Nota;
     }

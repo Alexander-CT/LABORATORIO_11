@@ -14,9 +14,12 @@ public class Colegio {
     }
     public void mostrar()
     {
+        int cont = 0;
+        System.out.println("-------------------\nDATOS ALMACENADOS:\n-------------------");
         for(Alumno obj: lista){
-            System.out.println("Nombre"+ obj.getNombre());//JOptionPane.showInputDialog("Nombre"+ obj.getNombre());
-            System.out.println("Notas"+ obj.getNota());//JOptionPane.showInputDialog("Notas"+ obj.getNota());
+            cont++;
+            System.out.println("Alumno "+cont+":\nNombre: "+ obj.getNombre());//JOptionPane.showInputDialog("Nombre"+ obj.getNombre());
+            System.out.println("Nota: "+ obj.getNota()+"\n---------------------------------------");//JOptionPane.showInputDialog("Notas"+ obj.getNota());
         }
     }
 }
