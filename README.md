@@ -1,2 +1,2 @@
 # LABORATORIO_11
-Laboratorio 11 - Listas circulares
+Laboratorio 11 - Listas circulares y ArrayList
